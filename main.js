@@ -197,7 +197,7 @@ const config = {
   height: 800,
   physics: {
     default: "arcade",
-    arcade: { gravity: { x: 0, y: 0 }, debug: true }, // Debug on to visualize
+    arcade: { gravity: { x: 0, y: 0 }, debug: false }, // Debug on to visualize
   },
   scene: [WelcomeScene, HowToPlayScene, GameScene],
 };
